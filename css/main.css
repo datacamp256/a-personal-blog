@@ -2,3 +2,15 @@ div {
     border-style: dotted;
     border-color: green;
 }
+
+.header {
+    grid-area: gd-header;
+}
+
+.footer {
+    grid-area: gd-footer;
+}
+
+.menu {
+    grid-area: gd-menu
+}

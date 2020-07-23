@@ -1,8 +1,9 @@
 body {
+    --favourites-height: 150px;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 5em 50px 1fr 1fr 2em;
+    grid-template-rows: 5em 50px var(--favourites-height) 1fr 2em;
     grid-template-areas:
             "gd-header"
             "gd-menu"
@@ -11,22 +12,17 @@ body {
             "gd-footer";
 }
 
-#header {
-    grid-area: gd-header;
-}
-
-#footer {
-    grid-area: gd-footer;
-}
-
-#menu {
-    grid-area: gd-menu
-}
 
 #favourites {
     grid-area: gd-favourites;
+    display: flex;
 }
 
 #entrylist {
     grid-area: gd-entries;
+}
+
+.card-preview {
+    width: 250px;
+    height: var(--favourites-height);
 }
