@@ -1,38 +1,4 @@
-body {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5em 50px 1fr 1fr 2em;
-    grid-template-areas:
-            "gd-header"
-            "gd-menu"
-            "gd-favourites"
-            "gd-entries"
-            "gd-footer";
-}
-
 div {
     border-style: dotted;
     border-color: green;
-    margin: 5px;
-}
-
-#header {
-    grid-area: gd-header;
-}
-
-#footer {
-    grid-area: gd-footer;
-}
-
-#menu {
-    grid-area: gd-menu
-}
-
-#favourites {
-    grid-area: gd-favourites;
-}
-
-#entrylist {
-    grid-area: gd-entries;
 }
