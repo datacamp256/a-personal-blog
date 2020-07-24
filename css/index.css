@@ -1,7 +1,7 @@
 body {
 
-    --favourites-height: 250px;
-    --favourites-width: 400px;
+    --favourites-height: 245px;
+    --favourites-width: 392px;
 }
 
 .content-box {
@@ -21,6 +21,7 @@ body {
 #favourites {
     grid-area: gd-favourites;
     display: flex;
+    justify-content: space-around;
 }
 
 #entrylist {

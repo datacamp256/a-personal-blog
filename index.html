@@ -5,16 +5,30 @@
   <title>A Personal Blog</title>
   <link href="./css/main.css" rel="stylesheet" type="text/css">
   <link href="./css/index.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <div class="content-box">
-  <div class="header"><h1>Welcome to the blog</h1></div>
-  <div class="menu">Menu</div>
-  <div class="footer">Footer</div>
+  <header class="header"><h1>Welcome to the blog</h1></header>
+  <div class="menu-bar">
+    <nav class="menu-bar">
+      <a class="button" href="index.html">Start</a>
+      <a class="button" href="index.html">Shop</a>
+      <a class="button" href="index.html">Contact</a>
+      <a class="button" href="index.html">Start</a>
+      <a class="button" href="index.html#bottom">About</a>
+    </nav>
+    <form class="search-box">
+      <label for="search-field">Find in blog</label>
+      <input class="input-field" id="search-field" name="find" placeholder="Search blog" type="text"/>
+      <button class="material-icons md-18">search</button>
+    </form>
+  </div>
+  <footer class="footer" id="bottom">Footer</footer>
   <div id="favourites">
-    <div class="card">
+    <a class="card" href="./posts/pavement.html">
       <img alt="A pavement" class="card-preview" src="images/favourite-pavement02.jpg"/>
-    </div>
+    </a>
     <div class="card">
       <img alt="Clouds in the sky" class="card-preview" src="images/favourite-clouds02.jpg"/>
     </div>
@@ -22,7 +36,8 @@
       <img alt="White stones" class="card-preview" src="images/favourite-stones03.jpg"/>
     </div>
   </div>
-  <div id="entrylist">Entries</div>
+  <main id="entrylist">Entries
+    <i class="material-icons">face</i></main>
 </div>
 </body>
 </html>
