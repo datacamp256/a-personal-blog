@@ -1,5 +1,10 @@
 body {
+
     --favourites-height: 250px;
+    --favourites-width: 400px;
+}
+
+.content-box {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -23,6 +28,6 @@ body {
 }
 
 .card-preview {
-    width: 400px;
+    width: var(--favourites-width);
     height: var(--favourites-height);
 }

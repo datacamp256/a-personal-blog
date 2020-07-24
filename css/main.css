@@ -3,6 +3,12 @@ div {
     border-color: green;
 }
 
+.content-box {
+    background: cornsilk;
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .header {
     grid-area: gd-header;
 }
