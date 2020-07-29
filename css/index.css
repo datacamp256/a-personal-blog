@@ -1,5 +1,4 @@
-body {
-
+:root {
     --favourites-height: 245px;
     --favourites-width: 392px;
 }
@@ -8,7 +7,13 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 5em 50px var(--favourites-height) 1fr 2em;
+    grid-template-rows:
+            var(--header-height)
+            var(--menu-height)
+            var(--favourites-height)
+            1fr
+            var(--footer-height);
+
     grid-template-areas:
             "gd-header"
             "gd-menu"

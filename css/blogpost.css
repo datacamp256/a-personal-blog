@@ -1,0 +1,36 @@
+.content-box {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 5em 50px var(--favourites-height) 1fr 2em;
+}
+
+.header {
+    grid-row: 2;
+    grid-column: 1/-1;
+}
+
+.menu-bar {
+    grid-row: 1;
+    grid-column: 1/-1;
+}
+
+.footer {
+    grid-row: 4;
+    grid-column: 1/-1;
+
+}
+
+.sidebar {
+    grid-row: 3;
+    grid-column: 2/3;
+}
+
+.socialmedia-icons > img {
+    width: 20px;
+}
+
+.content {
+    grid-row: 3;
+    grid-column: 1/2;
+}

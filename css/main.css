@@ -1,6 +1,12 @@
+:root {
+    --header-height: 5em;
+    --menu-height: 55px;
+    --footer-height: 2em;
+}
+
 .content-box {
     background: cornsilk;
-    width: 1200px;
+    width: 80vw;
     margin: 0 auto;
 }
 
