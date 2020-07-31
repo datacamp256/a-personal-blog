@@ -30,3 +30,7 @@ footer {
     list-style-type: none;
     padding: 0;
 }
+
+figure {
+    margin: 0;
+}
