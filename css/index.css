@@ -28,7 +28,7 @@
 #favourites {
     grid-area: gd-favourites;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card {
