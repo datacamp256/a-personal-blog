@@ -1,0 +1,37 @@
+.menu-bar > nav {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+a.button {
+    text-decoration: none;
+    color: initial;
+    padding: 0.5em 1em;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.search-box {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    alignment: center;
+}
+
+.search-box > input {
+    height: 2em;
+    width: 7em;
+}
+
+.search-box > label {
+    display: none;
+}

@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>A Personal Blog - Pavement</title>
-  <link href="../css/main.css" rel="stylesheet" type="text/css">
-  <link href="../css/blogpost.css" rel="stylesheet" type="text/css">
+  <link href="../css/blogposts.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
 <body>
 <div class="content-box">
@@ -25,22 +26,28 @@
     </form>
   </div>
   <div class="sidebar">
-    <h2>The Author</h2>
-    <img alt="avatar" id="avatar" src="../images/icons/Down%20Idle%20Character%204%2002.png">
-    <ul>
-      <li>Hans Dampf</li>
-      <li>junior stuff creator</li>
-      <li>learning Websites at Udacity</li>
-      <li>Short Bio</li>
-    </ul>
-    <h2>Post this article</h2>
-    <div class="socialmedia-icons">
+    <section>
+      <h2>The Author</h2>
+      <img alt="avatar" id="avatar" src="../images/icons/Down%20Idle%20Character%204%2002.png">
+      <ul class="sidebar__author--liststyle">
+        <li id="name">Hans Dampf</li>
+        <li id="title">junior stuff creator</li>
+        <li id="current company/school">learning Websites at Udacity</li>
+      </ul>
+      <p class="paragraph--em"><!--short bio--> The author <q>Hans Dampf</q> was invented by the actual author of this
+        website some days ago. However some regulations forbide the actual author to get known.</p>
+    </section>
+    >
+    <section>
+      <h2>Post this article</h2>
+      <div class="socialmedia-icons">
       <span><img alt="twitter" class="socialmedia-icon"
                  src="../images/icons/Twitter_Logo_WhiteOnBlue.svg"> at twitter</span>
-      <span><img alt="LinkedIN" class="socialmedia-icon"
-                 src="../images/icons/LI-Bug.svg.original.svg"> on LinkedIn</span>
-      <span><img alt="facebook" class="socialmedia-icon" src="../images/icons/F_icon.svg"> on facebook</span>
-    </div>
+        <span><img alt="LinkedIN" class="socialmedia-icon"
+                   src="../images/icons/LI-Bug.svg.original.svg"> on LinkedIn</span>
+        <span><img alt="facebook" class="socialmedia-icon" src="../images/icons/F_icon.svg"> on facebook</span>
+      </div>
+    </section>
 
   </div>
   <article class="content">
@@ -63,6 +70,24 @@
         esse facilis harum laudantium magni nam natus nostrum pariatur qui rerum sapiente sint sit temporibus ullam?
         Consequuntur, deserunt distinctio earum harum ipsum omnis possimus quas totam? Cupiditate delectus dolorum
         exercitationem minima numquam placeat praesentium provident, suscipit tempora voluptas. Commodi, porro unde.</p>
+      <blockquote cite="Frank Thunderstone, 23000 bc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Architecto atque dolore eaque error eum, ex facere
+        fugiat fugit incidunt nam, nulla omnis quibusdam suscipit vel voluptatibus. Architecto assumenda consectetur
+        cumque dignissimos dolorem earum expedita hic laudantium maiores minima, minus molestiae neque nostrum provident
+        quae quo rerum suscipit tempora, tenetur, totam. Accusamus at commodi debitis, deleniti distinctio eaque eos et,
+        excepturi facere ipsam modi neque nobis non nostrum nulla numquam placeat quidem quod reprehenderit sapiente
+        sequi sint sunt totam ullam, ut vitae voluptas! Dolore eos inventore laborum magni quidem repudiandae similique?
+        Dolorem, dolorum, sunt! Assumenda culpa deleniti dicta distinctio dolorum ex excepturi facere fuga, ipsam
+        laborum modi quas recusandae reprehenderit saepe sequi soluta suscipit tempora temporibus totam ut vitae
+        voluptas voluptatum.</p>
+        <p><cite>Frank Thunderstone, about 23,000 bc</cite></p></blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:
+        <q cite="Frank Thunderstone, 23000 bc">Amet asperiores atque beatae consectetur consequuntur cum cumque debitis
+          <strong>dolorem doloribus dolorum eligendi excepturi illum in ipsam libero nam nemo</strong>, neque numquam
+          odit omnis
+          perferendis porro provident, quaerat quas qui quia quod reiciendis rem repellat sit soluta tempora totam ut
+          veniam veritatis voluptate voluptatum?</q>
+        Doloremque minus <em>perferendis sunt(!)</em> tempore voluptatem voluptatibus voluptatum!</p>
     </section>
     <section>
       <h2>First subparagraph</h2>
@@ -83,6 +108,19 @@
       </div>
     </section>
     <section><h2>Second Subparagraph</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse expedita maiores maxime quae quibusdam rem
+        veniam? Adipisci consequuntur corporis dolore facere impedit ipsum magni nisi, non? Iste provident ratione
+        reiciendis!</p>
+      <p class="paragraph--underlined">Alias aliquam at cum delectus dicta dolorum, ducimus fugiat ipsam iste maxime
+        neque nisi nulla praesentium
+        soluta velit vitae voluptatem. Ab doloremque facilis harum odio quaerat quos reiciendis vero voluptatem.</p>
+      <p class="paragraph--em">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium
+        aspernatur cum, dolores eius
+        enim incidunt maiores modi quae quam quos reprehenderit repudiandae soluta sunt tenetur, totam, velit veritatis
+        voluptatibus.</p>
+      <p class="paragraph--strong">A ab aliquam, aperiam, cum ea eos et fugiat fugit ipsam magnam magni modi natus nihil
+        numquam officia omnis
+        perspiciatis qui, quibusdam quo repudiandae rerum totam unde ut veritatis voluptates?</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias architecto asperiores at
         consequatur
         consequuntur cum cumque doloribus dolorum ducimus earum eligendi eos est, ex harum inventore itaque laboriosam

@@ -1,3 +1,4 @@
+@import "common.css";
 .content-box {
     padding-top: 3em;
     display: grid;
@@ -63,4 +64,20 @@
     width: 100%;
     max-width: 100%;
     height: 12em;
+}
+
+.paragraph--strong {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.paragraph--em {
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.paragraph--underlined {
+    text-decoration: underline;
 }

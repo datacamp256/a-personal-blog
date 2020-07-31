@@ -1,0 +1,31 @@
+:root {
+    --header-height: 5em;
+    --menu-height: 55px;
+    --footer-height: 2em;
+}
+
+.content-box {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    grid-area: gd-header;
+}
+
+footer {
+    grid-area: gd-footer;
+}
+
+.menu-bar {
+    grid-area: gd-menu;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 2em;
+    alignment: center;
+}
+
+.sidebar__author--liststyle {
+    list-style-type: none;
+    padding: 0;
+}
