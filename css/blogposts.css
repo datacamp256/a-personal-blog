@@ -47,7 +47,7 @@
     flex-direction: column;
 }
 
-.socialmedia-icons > span > img {
+.socialmedia-icons > a > img {
     width: 20px;
 }
 
