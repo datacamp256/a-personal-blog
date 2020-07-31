@@ -1,0 +1,29 @@
+#entrylist {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry {
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 2em 1fr;
+    grid-template-areas:    "preview header"
+                            "preview summary";
+    align-items: start;
+}
+
+.entry__preview {
+    grid-area: preview;
+}
+
+.entry__header {
+    grid-area: header;
+    margin: 0;
+    margin-left: 1rem
+}
+
+.entry__summary {
+    grid-area: summary;
+    margin-left: 1rem;
+}
