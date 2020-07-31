@@ -1,6 +1,5 @@
 @import "common.css";
 .content-box {
-    padding-top: 3em;
     display: grid;
     grid-template-columns: 1fr 150px;
     grid-template-rows: 5em 50px var(--favourites-height) 1fr 2em;

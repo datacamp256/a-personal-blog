@@ -1,4 +1,5 @@
 @import "common.css";
+
 :root {
     --favourites-height: 245px;
     --favourites-width: 392px;
@@ -6,7 +7,6 @@
 
 .content-box {
     display: grid;
-    height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows:
             var(--header-height)
