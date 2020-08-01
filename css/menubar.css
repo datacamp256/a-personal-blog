@@ -6,6 +6,7 @@
 
     display: flex;
     justify-content: space-between;
+    order: 1;
 }
 
 a.button {
@@ -29,6 +30,7 @@ a.button:hover {
 
     display: flex;
     alignment: center;
+    order: 2;
 }
 
 .search-box > input {
@@ -38,4 +40,16 @@ a.button:hover {
 
 .search-box > label {
     display: none;
+}
+
+@media (max-width: 600px) {
+    a.button {
+        text-decoration: underline;
+        border: none;
+    }
+
+    a.button:hover {
+        border: none;
+        color: gray;
+    }
 }

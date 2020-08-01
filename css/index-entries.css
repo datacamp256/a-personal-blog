@@ -15,15 +15,29 @@
 
 .entry__preview {
     grid-area: preview;
+    order: 2;
 }
 
 .entry__header {
     grid-area: header;
     margin: 0;
-    margin-left: 1rem
+    margin-left: 1rem;
+    order: 1;
 }
 
 .entry__summary {
     grid-area: summary;
     margin-left: 1rem;
+    order: 3;
+}
+
+@media (max-width: 600px) {
+    .entry {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .entry__summary, .entry__header {
+        margin-left: 0;
+    }
 }
