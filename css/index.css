@@ -29,6 +29,7 @@
     grid-area: gd-favourites;
     display: flex;
     justify-content: space-between;
+    order: 3;
 }
 
 .card {
@@ -54,6 +55,7 @@
 
 #entrylist {
     grid-area: gd-entries;
+    order: 4;
 }
 
 .card-preview {

@@ -12,10 +12,12 @@
 
 header {
     grid-area: gd-header;
+    order: 1;
 }
 
 footer {
     grid-area: gd-footer;
+    order: 5;
 }
 
 .menu-bar {
@@ -24,6 +26,7 @@ footer {
     grid-template-columns: 150px 1fr 150px;
     grid-template-rows: 2em;
     alignment: center;
+    order: 2;
 }
 
 .sidebar__author--liststyle {
