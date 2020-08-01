@@ -12,9 +12,13 @@ a.button {
     text-decoration: none;
     color: initial;
     padding: 0.5em 1em;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid black;
     text-align: center;
+}
+
+a.button:hover {
+    border: 1px solid gray;
+    color: gray;
 }
 
 .search-box {

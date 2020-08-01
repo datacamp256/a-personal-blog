@@ -1,10 +1,5 @@
-root {
-    --background-color: lightsteelblue;
-}
-
 .content-box {
-    background: var(--background-color);
-
+    background: lightsteelblue;
 }
 
 body {
