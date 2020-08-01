@@ -1,3 +1,5 @@
+@import "./colors.css";
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -5,4 +7,19 @@ body {
 q {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
+}
+
+.entry {
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+    border: 1px solid lightsteelblue;
+}
+
+.entry:visited {
+    color: #454B61;
+}
+
+.entry:hover {
+    border: 1px solid black;
 }
