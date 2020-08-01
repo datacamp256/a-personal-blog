@@ -33,6 +33,12 @@
 
 .card {
     position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    color: gray;
 }
 
 .index__favourite__text {
