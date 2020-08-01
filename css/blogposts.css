@@ -81,3 +81,11 @@
 .paragraph--underlined {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+
+    .content-box {
+        display: flex;
+        flex-direction: column;
+    }
+}

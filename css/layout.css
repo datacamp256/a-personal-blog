@@ -34,3 +34,44 @@ footer {
 figure {
     margin: 0;
 }
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+    #card__prio3 {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #card__prio3 {
+        display: none;
+    }
+
+    body {
+        background: none;
+        margin: 0;
+    }
+
+    .content-box {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 820px) {
+    #card__prio2 {
+        display: none;
+    }
+
+    .menu-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-bar {
+        flex-direction: column;
+    }
+}
