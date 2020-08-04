@@ -13,8 +13,8 @@
             var(--header-height)
             var(--menu-height)
             var(--favourites-height)
-            1fr
-            var(--footer-height);
+            1fr;
+var(--footer-height);
 
     grid-template-areas:
             "gd-header"
