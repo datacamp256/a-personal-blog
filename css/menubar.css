@@ -1,4 +1,4 @@
-.menu-bar > nav {
+nav {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -22,7 +22,7 @@ a.button:hover {
     color: gray;
 }
 
-.search-box {
+#search-box {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -33,12 +33,12 @@ a.button:hover {
     order: 2;
 }
 
-.search-box > input {
+#search-box > input {
     height: 2em;
     width: 7em;
 }
 
-.search-box > label {
+#search-box > label {
     display: none;
 }
 

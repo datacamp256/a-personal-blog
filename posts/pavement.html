@@ -9,51 +9,51 @@
         rel="stylesheet">
 </head>
 <body>
-<div class="content-box">
-  <header class="header"><h1>The Pavement</h1></header>
-  <div class="menu-bar">
-    <nav class="menu-bar">
+<div id="content-box">
+  <header id="header"><h1>The Pavement</h1></header>
+  <div id="menu-bar">
+    <nav>
       <a class="button" href="../index.html">Start</a>
       <a class="button" href="../index.html">Shop</a>
       <a class="button" href="../index.html">Contact</a>
       <a class="button" href="../index.html">Start</a>
       <a class="button" href="../index.html#bottom">About</a>
     </nav>
-    <form class="search-box">
+    <form id="search-box">
       <label for="search-field">Find in blog</label>
       <input class="input-field" id="search-field" name="find" placeholder="Search blog" type="text"/>
-      <button class="material-icons md-18">search</button>
+      <button class="material-icons md-18" id="search-button">search</button>
     </form>
   </div>
-  <div class="sidebar">
+  <div id="sidebar">
     <h2>The Author</h2>
     <img alt="avatar" id="avatar" src="../images/icons/Down%20Idle%20Character%204%2002.png">
-    <ul class="sidebar__author--liststyle">
-      <li id="name">Hans Dampf</li>
-      <li id="title">junior stuff creator</li>
-      <li id="current company/school">learning Websites at Udacity</li>
+    <ul id="sidebar__author--liststyle">
+      <li id="author--name">Hans Dampf</li>
+      <li id="author--title">junior stuff creator</li>
+      <li id="author--company-school">learning Websites at Udacity</li>
     </ul>
     <p class="paragraph--em"><!--short bio--> The author <q>Hans Dampf</q> was invented by the actual author of this
       website some days ago. However some regulations forbide the actual author to get known.</p>
 
     <h2>Post this article</h2>
-    <div class="socialmedia-icons">
-      <a href="http://twitter.com/share?url=about:blank&text=Nothing%20to%20share" target="_blank">
+    <div id="socialmedia-icons">
+      <a href="http://twitter.com/share?url=about:blank&text=Nothing%20to%20share" id="twitter" target="_blank">
         <img alt="twitter" class="socialmedia-icon"
              src="../images/icons/Twitter_Logo_WhiteOnBlue.svg"> at twitter
       </a>
-      <a href="http://www.linkedin.com/shareArticle?mini=true&url=about:blank" target="_blank">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=about:blank" id="linkedin" target="_blank">
         <img alt="LinkedIN" class="socialmedia-icon"
              src="../images/icons/LI-Bug.svg.original.svg"> on LinkedIn
       </a>
-      <a href="http://www.facebook.com/sharer.php?u=https://127.0.0.1" target="_blank">
+      <a href="http://www.facebook.com/sharer.php?u=https://127.0.0.1" id="facebook" target="_blank">
         <img alt="facebook" class="socialmedia-icon"
              src="../images/icons/F_icon.svg"> on facebook
       </a>
     </div>
 
   </div>
-  <article class="content">
+  <article id="article">
     <span>Go to <a href="#summary">summary</a>.</span>
     <section id="introduction">
       <figure>
@@ -181,12 +181,12 @@
     </section>
 
   </article>
-  <div id="navigation">
+  <div id="previous-next-home">
     <a class="button material-icons" href="./pavement.html" title="Previous article">arrow_back_ios</a>
     <a class="button material-icons" href="../index.html" title="Start page">home</a>
     <a class="button material-icons" href="./pavement.html" title="Next article">arrow_forward_ios</a>
   </div>
-  <div class="footer">&copy; 2020</div>
+  <footer id="bottom">&copy; 2020</footer>
 </div>
 </body>
 </html>

@@ -7,23 +7,23 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<div class="content-box">
-  <header class="header"><h1>Welcome to the blog</h1></header>
-  <div class="menu-bar">
-    <nav class="menu-bar">
+<div id="content-box">
+  <header id="header"><h1>Welcome to the blog</h1></header>
+  <div id="menu-bar">
+    <nav>
       <a class="button" href="index.html">Start</a>
       <a class="button" href="index.html">Shop</a>
       <a class="button" href="index.html">Contact</a>
       <a class="button" href="index.html">Start</a>
       <a class="button" href="index.html#bottom">About</a>
     </nav>
-    <form class="search-box">
+    <form id="search-box">
       <label for="search-field">Find in blog</label>
       <input class="input-field" id="search-field" name="find" placeholder="Search blog" type="text"/>
-      <button class="material-icons md-18">search</button>
+      <button class="material-icons md-18" id="search-button">search</button>
     </form>
   </div>
-  <footer class="footer" id="bottom">&copy; 2020</footer>
+  <footer id="bottom">&copy; 2020</footer>
   <div id="favourites">
     <a class="card" href="./posts/pavement.html" id="card__prio1">
       <img alt="A pavement" class="card-preview" src="images/favourite-pavement02.jpg"/>
@@ -34,7 +34,7 @@
       <div class="index__favourite__text">Clouds</div>
     </a>
     <a class="card" href="404" id="card__prio2">
-      <!--Yes, that 'bug' is intentional. So we can see how unvisited links look like.-->
+      <!--Yes, that href 'bug' is intentional. So we can see how unvisited links look like.-->
       <img alt="Stones" class="card-preview" src="images/favourite-stones03.jpg"/>
       <div class="index__favourite__text">Stones</div>
     </a>
@@ -91,7 +91,8 @@
         molestiae mollitia nesciunt nobis omnis, repellat voluptate!
       </div>
     </a>
-    <a class="entry" href="404"><!--Yes, that 'bug' is intentional. So we can see how unvisited links look like.-->
+    <a class="entry" href="404">
+      <!--Yes, that href 'bug' is intentional. So we can see how unvisited links look like.-->
       <img alt="Conifer" class="entry__preview" src="images/overview-conifer03.jpg"/>
       <h3 class="entry__header">A Conifer</h3>
       <div class="entry__summary"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur, cupiditate ea fugiat iusto modi sequi veritatis? Fuga nostrum, perferendis.</span><span>Ab aut consequuntur ea ipsam modi nulla pariatur perferendis voluptatibus. Blanditiis distinctio libero necessitatibus numquam odit repellat, rerum saepe sunt.</span><span>Aut blanditiis consequuntur cum dolor dolorum excepturi in incidunt inventore itaque, odit officia officiis quibusdam quidem quis ratione sint tempora.</span><span>Corporis ducimus illo ipsa quo rerum, similique veniam? Accusantium aliquid doloribus facilis id laudantium natus possimus quia saepe tempora veritatis!</span>
